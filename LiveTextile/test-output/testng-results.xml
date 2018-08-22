@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5163" started-at="2018-08-22T12:01:52Z" finished-at="2018-08-22T12:01:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5163" started-at="2018-08-22T12:01:52Z" finished-at="2018-08-22T12:01:58Z">
+      <class name="scripts.AddProduct">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.AddProduct@3c756e4d]" name="setUp" is-config="true" duration-ms="4055" started-at="2018-08-22T17:31:52Z" finished-at="2018-08-22T17:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddToCartTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.AddProduct@3c756e4d]" name="AddToCartTest" duration-ms="5" started-at="2018-08-22T17:31:57Z" data-provider="AnyID" finished-at="2018-08-22T17:31:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spun Yarn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cotton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Weaving]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MIll]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method status="PASS" signature="turnDown()[pri:0, instance:scripts.AddProduct@3c756e4d]" name="turnDown" is-config="true" duration-ms="919" started-at="2018-08-22T17:31:57Z" finished-at="2018-08-22T17:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnDown -->
+      </class> <!-- scripts.AddProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

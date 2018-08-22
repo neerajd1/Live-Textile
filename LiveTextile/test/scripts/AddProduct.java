@@ -24,7 +24,7 @@ public class AddProduct {
 		System.setProperty("webdriver.chrome.driver",
 				"test\\resources\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
-		baseUrl = "https://www.flipkart.com/";
+		baseUrl = "http://205.147.102.59:9001/";
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
@@ -36,7 +36,7 @@ public class AddProduct {
 		return (retObjArr);
 	}
 	
-	@Test
+	@Test(dataProvider="AnyID")
 	public void AddToCartTest(String cat,String subcat,String method,String mid,String qty,String transport,String freight,String transport1,String name ,String mobile,String email,String msg){
 		
 		
