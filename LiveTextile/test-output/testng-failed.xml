@@ -7,7 +7,7 @@
         <methods>
           <include name="turnDown"/>
           <include name="setUp"/>
-          <include name="AddToCartTest"/>
+          <include name="AddToCartTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- scripts.AddProduct -->
     </classes>
